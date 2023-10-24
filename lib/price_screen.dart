@@ -21,7 +21,7 @@ class _PriceScreenState extends State<PriceScreen> {
   void getCryptoData() async {
     // await CoinData().getCoinData(selectedCurrency);
     var data = await CoinData().getCoinData(selectedCurrency);
-    print(data);
+    // print(data);
     setState(() {
       coinValues = data;
       print(coinValues);
